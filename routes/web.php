@@ -8,7 +8,7 @@ use App\Http\Controllers\InformasiController;
 use App\Http\Controllers\ReportController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('dashboard');
 });
 
 // Dashboard
